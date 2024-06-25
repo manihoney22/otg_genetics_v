@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "excelra-rnd-gsk-otg-2024",
+  "private_key_id": "e347799f4ea6f50181a6b3a95c9a27be9d6fdf",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJzMnMvcBtcPMB\n5lvFq9tQMhlbjdeVJN9wZqkHKX+6LrZGo67476nz7TI41XI9Gwcdpc7kuZkXub3A\nSl3kEeilHZt9nnbwV5V+Qkclebs2onVyJud0zDBZZUBOnJKOvVO4GECzG74ElFPZ\nA/5zdPajZEny3Zdaqxf+XrYlrLAukZStb22jwVSar6Hi9FCTBF/AOupV58TOzUd6\nSeON8w1LtCxod3Vo5X6CwEU++KZgoC9IU7PGOFuxE2LX4id0HGRWeU1JL7S+fLpg\nS1UYAgBLoGkUE5zFEWHrncY676tgtR4AjFGE54s1IjJTTi22UGzCslLIkaD+KkFJ\n6lbYBUpJAgMBAAECggEACFf6rIfYc9X16uP7yFKnSYZcGMuxXb9Aa05H/8MvdCg1\nXQ/saT/HNhi+XmNJ5cekgyKYHoojeluxoiiY/6KeF5dKVsFwGhbJotv/QygIjZ/e\nOAXuhOcNOoxWjOGJqD6g/mVnUG3YV5S2mkxBWi6m+iFoiCgxbLw9Vy+9O4B2Pjia\ncs0CD1ZR/9RH+EvIva9OnJGZ19gtmjaAdIhUt3ffFFyzHskbC02c5rKSYDF5MLBf\nkg5z5emeRr4VCGbKMcvUlZkVINUiPKh8D3M3UImny9Jhyc+MhfUgMF+d9t3sIgPb\nVtRF2piWHnpEE4KL+VRpo1LTC2hamBbDAaff9iaJsQKBgQD2a3zT1Hj5O4MX5240\nkChtSEodW2SW2rbDbapM9a4yxPAtyJzYhNu3lKz375FZRYhDSEFAcKstiDqK4dhx\nK4PWLKg3up2b2DoNnt1UEkA/9wiCco6Fw1pRVmWiYRLSegOvcqnTTC5h+cw3zXcr\n8iA0EMMnIRC0slG3wRyC20+zMQKBgQDRpTex6Vp026loJjHakwgSDPmHPczhCZM8\nEV4K03cNAlofBd2g5xwK6jRYefuVQPTKv2vdG5zymyzgdyOh6H8jFiVt2hgzufdT\ndo0/Do3BJsCN3XvQxI1QB+chksXiyqCI2heKDh7i8bIMIdGHY7NcIucJ13+px4YB\nFKx/r3XSmQKBgQC99priSheAOuqSkOyaRM+Ff4bzHrNqv+zIt0/jyDmkFcH56X9Q\nQwuGeGznLZ3lLf8fryHuZWzwyuYmjnhmtd8KSp7bZ1d8/rGyMlf5KaCyLuQ2e813\nPOPxdCMhjKgP7dPNex2EMGRJT2KpWhGWpS9CM/HdxlW0lwr8Fzi9gAfu4QKBgCzc\ndfaUQM8Q0kd/JNvo6qkyLZNLHjRpoCASd1VJuwgFoNNSpgJwcgfD5j+omrVtmPRp\n0eMWrZccrZW66N0Uq2AOtSO0r8kh2lL542/C5YKXkEzLQFuEM9kUV9lPVxkY0xF1\n2eOo8eMOZVNDSVr3csIcleP9QUxLbdl9WwxXt5bBAoGAP1t643wvu4zXFJuaSeDa\n7Jl1OGH3l1j9bRrRwf2KziPI1zRUywy+SoyFrinnvVc71EngrkUOHlatGxL9WX8K\n8vR/L4C4SdF6zvMAwgjFZvQGEbz53t+ZmDgO5W2Ait3SjzPftI7QdqDQWPhag9yo\ngbS4u6C/nWChWX3sU5686Ic=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcp-service-account@excelra-rnd-gsk-otg-2024.iam.gserviceaccount.com",
+  "client_id": "101079113616801283167",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcp-service-account%40excelra-rnd-gsk-otg-2024.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

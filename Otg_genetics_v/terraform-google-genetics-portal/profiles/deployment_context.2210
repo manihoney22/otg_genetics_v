@@ -1,0 +1,69 @@
+// --- DEVELOPMENT - Deployment Context --- //
+// --- Release Information --- //
+config_release_name = "production"
+
+// --- Deployment Configuration --- //
+config_gcp_default_region = "europe-west1"
+config_gcp_default_zone   = "europe-west1-b"
+config_project_id         = "open-targets-genetics"
+config_deployment_regions = [ "europe-west1" ]
+
+// --- DNS configuration               --- //
+config_dns_project_id                       = "open-targets-prod"
+config_dns_subdomain_prefix                 = null
+config_dns_managed_zone_name                = "opentargets-org"
+config_dns_managed_zone_dns_name            = "opentargets.org."
+config_dns_platform_api_subdomain           = "api"
+
+
+// --- Elastic Search configuration    --- //
+config_vm_elastic_search_image_project  = "open-targets-genetics-dev"
+config_vm_elastic_search_container_project = "cos-cloud"
+config_vm_elastic_search_image          = "cos-stable"
+config_vm_elastic_search_vcpus          = "4"
+config_vm_elastic_search_mem            = "26624"
+config_vm_elastic_search_version        = "7.10.2"
+config_vm_elastic_search_boot_disk_size = "10GB"
+config_vm_elastic_search_disk_project = "open-targets-genetics-dev"
+config_vm_elastic_search_disk_name = "es-disk-30eqaqyw-image"
+
+// --- Clickhouse configuration        --- //
+config_vm_clickhouse_image_project  = "open-targets-genetics-dev"
+config_vm_clickhouse_container_project = "cos-cloud"
+config_vm_clickhouse_image          = "cos-stable"
+config_vm_clickhouse_vcpus          = "8"
+config_vm_clickhouse_mem            = "53248"
+config_vm_clickhouse_boot_disk_size = "50GB"
+config_vm_clickhouse_disk_project = "open-targets-genetics-dev"
+config_vm_clickhouse_disk_name = "ch-disk-jldgdj65-image-v2"
+
+// --- API configuration               --- //
+config_vm_api_image_version  = "22.10.3"
+config_vm_api_image          = "cos-stable"
+config_vm_api_image_project  = "cos-cloud"
+config_vm_api_vcpus          = "2"
+config_vm_api_mem            = "7680"
+config_vm_api_boot_disk_size = "10GB"
+config_release_year = "22" 
+config_release_month = "10"
+
+// --- Web Application configuration   --- //
+config_webapp_repo_name = "opentargets/ot-ui-apps"
+config_webapp_release   = "v0.3.6"
+config_webapp_deployment_context_map = {
+  DEVOPS_CONTEXT_GENETICS_APP_CONFIG_API_URL = "'https://api.genetics.opentargets.org/graphql'"
+  DEVOPS_CONTEXT_GENETICS_APP_CONFIG_GOOGLE_TAG_MANAGER_ID = "'GTM-PNQWZ2V'"
+}
+// Use 'default' robots.txt profile
+//config_webapp_robots_profile                = "production"
+config_webapp_webserver_docker_image_version = "1.21.3"
+
+// --- Development features                 --- //
+config_enable_inspection = false
+config_enable_ssh        = true
+
+// --- PREEMPTIBLE Configuration --- //
+config_vm_elasticsearch_flag_preemptible = false
+config_vm_clickhouse_flag_preemptible    = false
+config_vm_api_flag_preemptible           = false
+config_vm_webserver_flag_preemptible     = false
